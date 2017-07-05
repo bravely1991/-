@@ -1,0 +1,37 @@
+//
+//  XRPrefixHeader.pch
+//  心然音乐
+//
+//  Created by brave on 2017/6/28.
+//  Copyright © 2017年 brave. All rights reserved.
+//
+
+#ifndef XRPrefixHeader_pch
+#define XRPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define hello @"hello world!"
+
+#import <AVFoundation/AVFoundation.h>
+
+#import "Masonry.h"
+
+#import "XRPlaySington.h"
+
+#define XRFont(size) [UIFont systemFontOfSize:(size)]
+
+#define XRColorRGBA(r, g, b, a)           [UIColor colorWithRed:(r) / 255.f green:(g) / 255.f blue:(b) / 255.f alpha:(a)]
+#define XRColorRGB(r, g, b)               XRColorRGBA((r), (g), (b), 1.f)
+#define XRColor0xRGB(rgb)                 XRColorRGBA((rgb) / 0x10000, ((rgb) % 0x10000) / 0x100, (rgb) % 0x100, 1.f)
+#define XRColor0xRGBA(rgb, a)             XRColorRGBA((rgb) / 0x10000, ((rgb) % 0x10000) / 0x100, (rgb) % 0x100, a)
+#define XRColor(c)                        XRColorRGBA((c), (c), (c), 1.f)
+#define XRColorBlackWithAlpha(a)          [UIColor colorWithWhite:0.f alpha:a]
+#define XRColorWhiteWithAlpha(a)          [UIColor colorWithWhite:1.f alpha:a]
+
+
+#define XRWidth [UIScreen mainScreen].bounds.size.width
+#define XRHeight [UIScreen mainScreen].bounds.size.height
+
+#endif /* XRPrefixHeader_pch */

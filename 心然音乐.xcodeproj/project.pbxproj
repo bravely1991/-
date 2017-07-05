@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E900E1401F09DFD0003A7317 /* XRPlayProcessingBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E900E13F1F09DFD0003A7317 /* XRPlayProcessingBar.m */; };
+		E900E1441F09EEAC003A7317 /* paomo.lrc in Resources */ = {isa = PBXBuildFile; fileRef = E900E1421F09EEAC003A7317 /* paomo.lrc */; };
+		E900E1451F09EEAC003A7317 /* paomo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E900E1431F09EEAC003A7317 /* paomo.mp3 */; };
+		E900E1481F0A18A9003A7317 /* XRLRCModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E900E1471F0A18A9003A7317 /* XRLRCModel.m */; };
+		E900E14B1F0A1980003A7317 /* XRLRCAnalysiser.m in Sources */ = {isa = PBXBuildFile; fileRef = E900E14A1F0A1980003A7317 /* XRLRCAnalysiser.m */; };
+		E900E14E1F0A24C4003A7317 /* XRLRCCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E900E14D1F0A24C4003A7317 /* XRLRCCell.m */; };
+		E900E1511F0A3977003A7317 /* XRLRCLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E900E1501F0A3977003A7317 /* XRLRCLabel.m */; };
+		E900E1541F0B219C003A7317 /* XRPlaySington.m in Sources */ = {isa = PBXBuildFile; fileRef = E900E1531F0B219C003A7317 /* XRPlaySington.m */; };
+		E900E15B1F0B936B003A7317 /* 匆匆那年.lrc in Resources */ = {isa = PBXBuildFile; fileRef = E900E1551F0B936B003A7317 /* 匆匆那年.lrc */; };
+		E900E15C1F0B936B003A7317 /* 匆匆那年.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E900E1561F0B936B003A7317 /* 匆匆那年.mp3 */; };
+		E900E15D1F0B936B003A7317 /* 但愿人长久.lrc in Resources */ = {isa = PBXBuildFile; fileRef = E900E1571F0B936B003A7317 /* 但愿人长久.lrc */; };
+		E900E15E1F0B936B003A7317 /* 但愿人长久.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E900E1581F0B936B003A7317 /* 但愿人长久.mp3 */; };
+		E900E15F1F0B936B003A7317 /* 红豆.lrc in Resources */ = {isa = PBXBuildFile; fileRef = E900E1591F0B936B003A7317 /* 红豆.lrc */; };
+		E900E1601F0B936B003A7317 /* 红豆.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E900E15A1F0B936B003A7317 /* 红豆.mp3 */; };
+		E92DB3BF1F034AF300BBCC45 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E92DB3BE1F034AF300BBCC45 /* main.m */; };
+		E92DB3C21F034AF300BBCC45 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E92DB3C11F034AF300BBCC45 /* AppDelegate.m */; };
+		E92DB3C51F034AF300BBCC45 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E92DB3C41F034AF300BBCC45 /* ViewController.m */; };
+		E92DB3C81F034AF300BBCC45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E92DB3C61F034AF300BBCC45 /* Main.storyboard */; };
+		E92DB3CD1F034AF300BBCC45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E92DB3CC1F034AF300BBCC45 /* Assets.xcassets */; };
+		E92DB3D01F034AF300BBCC45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E92DB3CE1F034AF300BBCC45 /* LaunchScreen.storyboard */; };
+		E92DB3FF1F034E6200BBCC45 /* XRPlayListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E92DB3FE1F034E6200BBCC45 /* XRPlayListViewController.m */; };
+		E92DB4021F034EBF00BBCC45 /* XRPlayListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E92DB4011F034EBF00BBCC45 /* XRPlayListModel.m */; };
+		E92DB4051F034FDC00BBCC45 /* XRPlayListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E92DB4041F034FDC00BBCC45 /* XRPlayListCell.m */; };
+		E92DB4211F03520900BBCC45 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = E92DB4091F03520900BBCC45 /* MASCompositeConstraint.m */; };
+		E92DB4221F03520900BBCC45 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = E92DB40C1F03520900BBCC45 /* MASConstraint.m */; };
+		E92DB4231F03520900BBCC45 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = E92DB40E1F03520900BBCC45 /* MASConstraintMaker.m */; };
+		E92DB4241F03520900BBCC45 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = E92DB4101F03520900BBCC45 /* MASLayoutConstraint.m */; };
+		E92DB4251F03520900BBCC45 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = E92DB4141F03520900BBCC45 /* MASViewAttribute.m */; };
+		E92DB4261F03520900BBCC45 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = E92DB4161F03520900BBCC45 /* MASViewConstraint.m */; };
+		E92DB4271F03520900BBCC45 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E92DB4181F03520900BBCC45 /* NSArray+MASAdditions.m */; };
+		E92DB4281F03520900BBCC45 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E92DB41B1F03520900BBCC45 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		E92DB4291F03520900BBCC45 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E92DB41D1F03520900BBCC45 /* View+MASAdditions.m */; };
+		E92DB42A1F03520900BBCC45 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E92DB4201F03520900BBCC45 /* ViewController+MASAdditions.m */; };
+		E92DB42D1F03887F00BBCC45 /* XRPlayListToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E92DB42C1F03887F00BBCC45 /* XRPlayListToolBar.m */; };
+		E92DB4301F03B31900BBCC45 /* XRPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E92DB42F1F03B31900BBCC45 /* XRPlayViewController.m */; };
+		E92DB4331F048E3E00BBCC45 /* XRPlayControlToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E92DB4321F048E3E00BBCC45 /* XRPlayControlToolBar.m */; };
+		E92DB4361F049F4000BBCC45 /* XRPlayMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = E92DB4351F049F4000BBCC45 /* XRPlayMainView.m */; };
+		E92DB4391F049F6100BBCC45 /* XRPlayLyricsView.m in Sources */ = {isa = PBXBuildFile; fileRef = E92DB4381F049F6100BBCC45 /* XRPlayLyricsView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E900E13E1F09DFD0003A7317 /* XRPlayProcessingBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRPlayProcessingBar.h; sourceTree = "<group>"; };
+		E900E13F1F09DFD0003A7317 /* XRPlayProcessingBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRPlayProcessingBar.m; sourceTree = "<group>"; };
+		E900E1421F09EEAC003A7317 /* paomo.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = paomo.lrc; sourceTree = "<group>"; };
+		E900E1431F09EEAC003A7317 /* paomo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = paomo.mp3; sourceTree = "<group>"; };
+		E900E1461F0A18A9003A7317 /* XRLRCModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRLRCModel.h; sourceTree = "<group>"; };
+		E900E1471F0A18A9003A7317 /* XRLRCModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRLRCModel.m; sourceTree = "<group>"; };
+		E900E1491F0A1980003A7317 /* XRLRCAnalysiser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRLRCAnalysiser.h; sourceTree = "<group>"; };
+		E900E14A1F0A1980003A7317 /* XRLRCAnalysiser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRLRCAnalysiser.m; sourceTree = "<group>"; };
+		E900E14C1F0A24C4003A7317 /* XRLRCCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRLRCCell.h; sourceTree = "<group>"; };
+		E900E14D1F0A24C4003A7317 /* XRLRCCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRLRCCell.m; sourceTree = "<group>"; };
+		E900E14F1F0A3977003A7317 /* XRLRCLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRLRCLabel.h; sourceTree = "<group>"; };
+		E900E1501F0A3977003A7317 /* XRLRCLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRLRCLabel.m; sourceTree = "<group>"; };
+		E900E1521F0B219C003A7317 /* XRPlaySington.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRPlaySington.h; sourceTree = "<group>"; };
+		E900E1531F0B219C003A7317 /* XRPlaySington.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRPlaySington.m; sourceTree = "<group>"; };
+		E900E1551F0B936B003A7317 /* 匆匆那年.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "匆匆那年.lrc"; sourceTree = "<group>"; };
+		E900E1561F0B936B003A7317 /* 匆匆那年.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "匆匆那年.mp3"; sourceTree = "<group>"; };
+		E900E1571F0B936B003A7317 /* 但愿人长久.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "但愿人长久.lrc"; sourceTree = "<group>"; };
+		E900E1581F0B936B003A7317 /* 但愿人长久.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "但愿人长久.mp3"; sourceTree = "<group>"; };
+		E900E1591F0B936B003A7317 /* 红豆.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "红豆.lrc"; sourceTree = "<group>"; };
+		E900E15A1F0B936B003A7317 /* 红豆.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "红豆.mp3"; sourceTree = "<group>"; };
+		E92DB3BA1F034AF300BBCC45 /* 心然音乐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "心然音乐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E92DB3BE1F034AF300BBCC45 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E92DB3C01F034AF300BBCC45 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E92DB3C11F034AF300BBCC45 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E92DB3C31F034AF300BBCC45 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E92DB3C41F034AF300BBCC45 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E92DB3C71F034AF300BBCC45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E92DB3CC1F034AF300BBCC45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E92DB3CF1F034AF300BBCC45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E92DB3D11F034AF300BBCC45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E92DB3FC1F034CA000BBCC45 /* XRPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XRPrefixHeader.pch; path = "心然音乐/XRPrefixHeader.pch"; sourceTree = SOURCE_ROOT; };
+		E92DB3FD1F034E6200BBCC45 /* XRPlayListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRPlayListViewController.h; sourceTree = "<group>"; };
+		E92DB3FE1F034E6200BBCC45 /* XRPlayListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRPlayListViewController.m; sourceTree = "<group>"; };
+		E92DB4001F034EBF00BBCC45 /* XRPlayListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRPlayListModel.h; sourceTree = "<group>"; };
+		E92DB4011F034EBF00BBCC45 /* XRPlayListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRPlayListModel.m; sourceTree = "<group>"; };
+		E92DB4031F034FDC00BBCC45 /* XRPlayListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRPlayListCell.h; sourceTree = "<group>"; };
+		E92DB4041F034FDC00BBCC45 /* XRPlayListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRPlayListCell.m; sourceTree = "<group>"; };
+		E92DB4081F03520900BBCC45 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		E92DB4091F03520900BBCC45 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		E92DB40A1F03520900BBCC45 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		E92DB40B1F03520900BBCC45 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		E92DB40C1F03520900BBCC45 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		E92DB40D1F03520900BBCC45 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		E92DB40E1F03520900BBCC45 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		E92DB40F1F03520900BBCC45 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		E92DB4101F03520900BBCC45 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		E92DB4111F03520900BBCC45 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		E92DB4121F03520900BBCC45 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		E92DB4131F03520900BBCC45 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		E92DB4141F03520900BBCC45 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		E92DB4151F03520900BBCC45 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		E92DB4161F03520900BBCC45 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		E92DB4171F03520900BBCC45 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		E92DB4181F03520900BBCC45 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		E92DB4191F03520900BBCC45 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		E92DB41A1F03520900BBCC45 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		E92DB41B1F03520900BBCC45 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		E92DB41C1F03520900BBCC45 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		E92DB41D1F03520900BBCC45 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		E92DB41E1F03520900BBCC45 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		E92DB41F1F03520900BBCC45 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		E92DB4201F03520900BBCC45 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		E92DB42B1F03887F00BBCC45 /* XRPlayListToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRPlayListToolBar.h; sourceTree = "<group>"; };
+		E92DB42C1F03887F00BBCC45 /* XRPlayListToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRPlayListToolBar.m; sourceTree = "<group>"; };
+		E92DB42E1F03B31900BBCC45 /* XRPlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRPlayViewController.h; sourceTree = "<group>"; };
+		E92DB42F1F03B31900BBCC45 /* XRPlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRPlayViewController.m; sourceTree = "<group>"; };
+		E92DB4311F048E3E00BBCC45 /* XRPlayControlToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRPlayControlToolBar.h; sourceTree = "<group>"; };
+		E92DB4321F048E3E00BBCC45 /* XRPlayControlToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRPlayControlToolBar.m; sourceTree = "<group>"; };
+		E92DB4341F049F4000BBCC45 /* XRPlayMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRPlayMainView.h; sourceTree = "<group>"; };
+		E92DB4351F049F4000BBCC45 /* XRPlayMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRPlayMainView.m; sourceTree = "<group>"; };
+		E92DB4371F049F6100BBCC45 /* XRPlayLyricsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRPlayLyricsView.h; sourceTree = "<group>"; };
+		E92DB4381F049F6100BBCC45 /* XRPlayLyricsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRPlayLyricsView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E92DB3B71F034AF300BBCC45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E900E1411F09EEAC003A7317 /* 资源文件 */ = {
+			isa = PBXGroup;
+			children = (
+				E900E1551F0B936B003A7317 /* 匆匆那年.lrc */,
+				E900E1561F0B936B003A7317 /* 匆匆那年.mp3 */,
+				E900E1571F0B936B003A7317 /* 但愿人长久.lrc */,
+				E900E1581F0B936B003A7317 /* 但愿人长久.mp3 */,
+				E900E1591F0B936B003A7317 /* 红豆.lrc */,
+				E900E15A1F0B936B003A7317 /* 红豆.mp3 */,
+				E900E1421F09EEAC003A7317 /* paomo.lrc */,
+				E900E1431F09EEAC003A7317 /* paomo.mp3 */,
+			);
+			path = "资源文件";
+			sourceTree = "<group>";
+		};
+		E92DB3B11F034AF300BBCC45 = {
+			isa = PBXGroup;
+			children = (
+				E92DB3BC1F034AF300BBCC45 /* 心然音乐 */,
+				E92DB3BB1F034AF300BBCC45 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E92DB3BB1F034AF300BBCC45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E92DB3BA1F034AF300BBCC45 /* 心然音乐.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E92DB3BC1F034AF300BBCC45 /* 心然音乐 */ = {
+			isa = PBXGroup;
+			children = (
+				E900E1411F09EEAC003A7317 /* 资源文件 */,
+				E92DB4061F0351BB00BBCC45 /* Vender */,
+				E92DB3F31F034C2800BBCC45 /* 播放列表 */,
+				E92DB3FB1F034C2800BBCC45 /* 歌词解析 */,
+				E92DB3C01F034AF300BBCC45 /* AppDelegate.h */,
+				E92DB3C11F034AF300BBCC45 /* AppDelegate.m */,
+				E92DB3C31F034AF300BBCC45 /* ViewController.h */,
+				E92DB3C41F034AF300BBCC45 /* ViewController.m */,
+				E92DB3C61F034AF300BBCC45 /* Main.storyboard */,
+				E92DB3CC1F034AF300BBCC45 /* Assets.xcassets */,
+				E92DB3CE1F034AF300BBCC45 /* LaunchScreen.storyboard */,
+				E92DB3D11F034AF300BBCC45 /* Info.plist */,
+				E92DB3FC1F034CA000BBCC45 /* XRPrefixHeader.pch */,
+				E92DB3BD1F034AF300BBCC45 /* Supporting Files */,
+			);
+			path = "心然音乐";
+			sourceTree = "<group>";
+		};
+		E92DB3BD1F034AF300BBCC45 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E92DB3BE1F034AF300BBCC45 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E92DB3F31F034C2800BBCC45 /* 播放列表 */ = {
+			isa = PBXGroup;
+			children = (
+				E92DB3F41F034C2800BBCC45 /* Controller */,
+				E92DB3F51F034C2800BBCC45 /* Model */,
+				E92DB3F61F034C2800BBCC45 /* View */,
+			);
+			path = "播放列表";
+			sourceTree = "<group>";
+		};
+		E92DB3F41F034C2800BBCC45 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E92DB3FD1F034E6200BBCC45 /* XRPlayListViewController.h */,
+				E92DB3FE1F034E6200BBCC45 /* XRPlayListViewController.m */,
+				E92DB42E1F03B31900BBCC45 /* XRPlayViewController.h */,
+				E92DB42F1F03B31900BBCC45 /* XRPlayViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E92DB3F51F034C2800BBCC45 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E92DB4001F034EBF00BBCC45 /* XRPlayListModel.h */,
+				E92DB4011F034EBF00BBCC45 /* XRPlayListModel.m */,
+				E900E1521F0B219C003A7317 /* XRPlaySington.h */,
+				E900E1531F0B219C003A7317 /* XRPlaySington.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E92DB3F61F034C2800BBCC45 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E92DB4341F049F4000BBCC45 /* XRPlayMainView.h */,
+				E92DB4351F049F4000BBCC45 /* XRPlayMainView.m */,
+				E92DB4371F049F6100BBCC45 /* XRPlayLyricsView.h */,
+				E92DB4381F049F6100BBCC45 /* XRPlayLyricsView.m */,
+				E92DB4031F034FDC00BBCC45 /* XRPlayListCell.h */,
+				E92DB4041F034FDC00BBCC45 /* XRPlayListCell.m */,
+				E900E14C1F0A24C4003A7317 /* XRLRCCell.h */,
+				E900E14D1F0A24C4003A7317 /* XRLRCCell.m */,
+				E92DB42B1F03887F00BBCC45 /* XRPlayListToolBar.h */,
+				E92DB42C1F03887F00BBCC45 /* XRPlayListToolBar.m */,
+				E92DB4311F048E3E00BBCC45 /* XRPlayControlToolBar.h */,
+				E92DB4321F048E3E00BBCC45 /* XRPlayControlToolBar.m */,
+				E900E13E1F09DFD0003A7317 /* XRPlayProcessingBar.h */,
+				E900E13F1F09DFD0003A7317 /* XRPlayProcessingBar.m */,
+				E900E14F1F0A3977003A7317 /* XRLRCLabel.h */,
+				E900E1501F0A3977003A7317 /* XRLRCLabel.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E92DB3FB1F034C2800BBCC45 /* 歌词解析 */ = {
+			isa = PBXGroup;
+			children = (
+				E900E1461F0A18A9003A7317 /* XRLRCModel.h */,
+				E900E1471F0A18A9003A7317 /* XRLRCModel.m */,
+				E900E1491F0A1980003A7317 /* XRLRCAnalysiser.h */,
+				E900E14A1F0A1980003A7317 /* XRLRCAnalysiser.m */,
+			);
+			path = "歌词解析";
+			sourceTree = "<group>";
+		};
+		E92DB4061F0351BB00BBCC45 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				E92DB4071F03520900BBCC45 /* Masonry */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		E92DB4071F03520900BBCC45 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				E92DB4081F03520900BBCC45 /* MASCompositeConstraint.h */,
+				E92DB4091F03520900BBCC45 /* MASCompositeConstraint.m */,
+				E92DB40A1F03520900BBCC45 /* MASConstraint+Private.h */,
+				E92DB40B1F03520900BBCC45 /* MASConstraint.h */,
+				E92DB40C1F03520900BBCC45 /* MASConstraint.m */,
+				E92DB40D1F03520900BBCC45 /* MASConstraintMaker.h */,
+				E92DB40E1F03520900BBCC45 /* MASConstraintMaker.m */,
+				E92DB40F1F03520900BBCC45 /* MASLayoutConstraint.h */,
+				E92DB4101F03520900BBCC45 /* MASLayoutConstraint.m */,
+				E92DB4111F03520900BBCC45 /* Masonry.h */,
+				E92DB4121F03520900BBCC45 /* MASUtilities.h */,
+				E92DB4131F03520900BBCC45 /* MASViewAttribute.h */,
+				E92DB4141F03520900BBCC45 /* MASViewAttribute.m */,
+				E92DB4151F03520900BBCC45 /* MASViewConstraint.h */,
+				E92DB4161F03520900BBCC45 /* MASViewConstraint.m */,
+				E92DB4171F03520900BBCC45 /* NSArray+MASAdditions.h */,
+				E92DB4181F03520900BBCC45 /* NSArray+MASAdditions.m */,
+				E92DB4191F03520900BBCC45 /* NSArray+MASShorthandAdditions.h */,
+				E92DB41A1F03520900BBCC45 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				E92DB41B1F03520900BBCC45 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				E92DB41C1F03520900BBCC45 /* View+MASAdditions.h */,
+				E92DB41D1F03520900BBCC45 /* View+MASAdditions.m */,
+				E92DB41E1F03520900BBCC45 /* View+MASShorthandAdditions.h */,
+				E92DB41F1F03520900BBCC45 /* ViewController+MASAdditions.h */,
+				E92DB4201F03520900BBCC45 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E92DB3B91F034AF300BBCC45 /* 心然音乐 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E92DB3EA1F034AF300BBCC45 /* Build configuration list for PBXNativeTarget "心然音乐" */;
+			buildPhases = (
+				E92DB3B61F034AF300BBCC45 /* Sources */,
+				E92DB3B71F034AF300BBCC45 /* Frameworks */,
+				E92DB3B81F034AF300BBCC45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "心然音乐";
+			productName = "心然音乐";
+			productReference = E92DB3BA1F034AF300BBCC45 /* 心然音乐.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E92DB3B21F034AF300BBCC45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XR;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "心然";
+				TargetAttributes = {
+					E92DB3B91F034AF300BBCC45 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 2M39C6VA5B;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E92DB3B51F034AF300BBCC45 /* Build configuration list for PBXProject "心然音乐" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E92DB3B11F034AF300BBCC45;
+			productRefGroup = E92DB3BB1F034AF300BBCC45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E92DB3B91F034AF300BBCC45 /* 心然音乐 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E92DB3B81F034AF300BBCC45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E900E15B1F0B936B003A7317 /* 匆匆那年.lrc in Resources */,
+				E900E1441F09EEAC003A7317 /* paomo.lrc in Resources */,
+				E900E1601F0B936B003A7317 /* 红豆.mp3 in Resources */,
+				E92DB3D01F034AF300BBCC45 /* LaunchScreen.storyboard in Resources */,
+				E900E15D1F0B936B003A7317 /* 但愿人长久.lrc in Resources */,
+				E900E1451F09EEAC003A7317 /* paomo.mp3 in Resources */,
+				E900E15F1F0B936B003A7317 /* 红豆.lrc in Resources */,
+				E900E15C1F0B936B003A7317 /* 匆匆那年.mp3 in Resources */,
+				E900E15E1F0B936B003A7317 /* 但愿人长久.mp3 in Resources */,
+				E92DB3CD1F034AF300BBCC45 /* Assets.xcassets in Resources */,
+				E92DB3C81F034AF300BBCC45 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E92DB3B61F034AF300BBCC45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E92DB4331F048E3E00BBCC45 /* XRPlayControlToolBar.m in Sources */,
+				E92DB4221F03520900BBCC45 /* MASConstraint.m in Sources */,
+				E900E14B1F0A1980003A7317 /* XRLRCAnalysiser.m in Sources */,
+				E92DB4251F03520900BBCC45 /* MASViewAttribute.m in Sources */,
+				E900E14E1F0A24C4003A7317 /* XRLRCCell.m in Sources */,
+				E92DB42A1F03520900BBCC45 /* ViewController+MASAdditions.m in Sources */,
+				E900E1511F0A3977003A7317 /* XRLRCLabel.m in Sources */,
+				E92DB4271F03520900BBCC45 /* NSArray+MASAdditions.m in Sources */,
+				E92DB3C51F034AF300BBCC45 /* ViewController.m in Sources */,
+				E92DB4261F03520900BBCC45 /* MASViewConstraint.m in Sources */,
+				E92DB4241F03520900BBCC45 /* MASLayoutConstraint.m in Sources */,
+				E92DB3C21F034AF300BBCC45 /* AppDelegate.m in Sources */,
+				E92DB3FF1F034E6200BBCC45 /* XRPlayListViewController.m in Sources */,
+				E92DB4391F049F6100BBCC45 /* XRPlayLyricsView.m in Sources */,
+				E92DB4291F03520900BBCC45 /* View+MASAdditions.m in Sources */,
+				E900E1401F09DFD0003A7317 /* XRPlayProcessingBar.m in Sources */,
+				E92DB4361F049F4000BBCC45 /* XRPlayMainView.m in Sources */,
+				E900E1481F0A18A9003A7317 /* XRLRCModel.m in Sources */,
+				E900E1541F0B219C003A7317 /* XRPlaySington.m in Sources */,
+				E92DB4211F03520900BBCC45 /* MASCompositeConstraint.m in Sources */,
+				E92DB4281F03520900BBCC45 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				E92DB4301F03B31900BBCC45 /* XRPlayViewController.m in Sources */,
+				E92DB4231F03520900BBCC45 /* MASConstraintMaker.m in Sources */,
+				E92DB3BF1F034AF300BBCC45 /* main.m in Sources */,
+				E92DB4021F034EBF00BBCC45 /* XRPlayListModel.m in Sources */,
+				E92DB42D1F03887F00BBCC45 /* XRPlayListToolBar.m in Sources */,
+				E92DB4051F034FDC00BBCC45 /* XRPlayListCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E92DB3C61F034AF300BBCC45 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E92DB3C71F034AF300BBCC45 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E92DB3CE1F034AF300BBCC45 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E92DB3CF1F034AF300BBCC45 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E92DB3E81F034AF300BBCC45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E92DB3E91F034AF300BBCC45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E92DB3EB1F034AF300BBCC45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2M39C6VA5B;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/心然音乐/XRPrefixHeader.pch";
+				INFOPLIST_FILE = "心然音乐/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.null.music;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E92DB3EC1F034AF300BBCC45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2M39C6VA5B;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/心然音乐/XRPrefixHeader.pch";
+				INFOPLIST_FILE = "心然音乐/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.null.music;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E92DB3B51F034AF300BBCC45 /* Build configuration list for PBXProject "心然音乐" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E92DB3E81F034AF300BBCC45 /* Debug */,
+				E92DB3E91F034AF300BBCC45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E92DB3EA1F034AF300BBCC45 /* Build configuration list for PBXNativeTarget "心然音乐" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E92DB3EB1F034AF300BBCC45 /* Debug */,
+				E92DB3EC1F034AF300BBCC45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E92DB3B21F034AF300BBCC45 /* Project object */;
+}
