@@ -18,6 +18,8 @@
 
 #import "Masonry.h"
 
+
+
 #import "XRPlaySington.h"
 
 #define XRFont(size) [UIFont systemFontOfSize:(size)]
@@ -29,6 +31,9 @@
 #define XRColor(c)                        XRColorRGBA((c), (c), (c), 1.f)
 #define XRColorBlackWithAlpha(a)          [UIColor colorWithWhite:0.f alpha:a]
 #define XRColorWhiteWithAlpha(a)          [UIColor colorWithWhite:1.f alpha:a]
+
+#define XRThemeColor XRColorRGB(210, 61, 57)
+
 
 
 #define XRWidth [UIScreen mainScreen].bounds.size.width

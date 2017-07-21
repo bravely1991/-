@@ -21,6 +21,12 @@
 		E900E15E1F0B936B003A7317 /* 但愿人长久.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E900E1581F0B936B003A7317 /* 但愿人长久.mp3 */; };
 		E900E15F1F0B936B003A7317 /* 红豆.lrc in Resources */ = {isa = PBXBuildFile; fileRef = E900E1591F0B936B003A7317 /* 红豆.lrc */; };
 		E900E1601F0B936B003A7317 /* 红豆.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E900E15A1F0B936B003A7317 /* 红豆.mp3 */; };
+		E90668F01F219FF50029E103 /* XRTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E90668EF1F219FF50029E103 /* XRTabBarController.m */; };
+		E90669031F21A24E0029E103 /* XRDisCoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E90669021F21A24E0029E103 /* XRDisCoverViewController.m */; };
+		E90669061F21A25C0029E103 /* XRFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E90669051F21A25C0029E103 /* XRFriendViewController.m */; };
+		E90669091F21A2710029E103 /* XRMyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E90669081F21A2710029E103 /* XRMyViewController.m */; };
+		E906690C1F21A27E0029E103 /* XRAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E906690B1F21A27E0029E103 /* XRAccountViewController.m */; };
+		E906690F1F21C1240029E103 /* XRNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E906690E1F21C1240029E103 /* XRNavigationController.m */; };
 		E92DB3BF1F034AF300BBCC45 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E92DB3BE1F034AF300BBCC45 /* main.m */; };
 		E92DB3C21F034AF300BBCC45 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E92DB3C11F034AF300BBCC45 /* AppDelegate.m */; };
 		E92DB3C51F034AF300BBCC45 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E92DB3C41F034AF300BBCC45 /* ViewController.m */; };
@@ -68,6 +74,18 @@
 		E900E1581F0B936B003A7317 /* 但愿人长久.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "但愿人长久.mp3"; sourceTree = "<group>"; };
 		E900E1591F0B936B003A7317 /* 红豆.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "红豆.lrc"; sourceTree = "<group>"; };
 		E900E15A1F0B936B003A7317 /* 红豆.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "红豆.mp3"; sourceTree = "<group>"; };
+		E90668EE1F219FF50029E103 /* XRTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRTabBarController.h; sourceTree = "<group>"; };
+		E90668EF1F219FF50029E103 /* XRTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRTabBarController.m; sourceTree = "<group>"; };
+		E90669011F21A24E0029E103 /* XRDisCoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRDisCoverViewController.h; sourceTree = "<group>"; };
+		E90669021F21A24E0029E103 /* XRDisCoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRDisCoverViewController.m; sourceTree = "<group>"; };
+		E90669041F21A25C0029E103 /* XRFriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRFriendViewController.h; sourceTree = "<group>"; };
+		E90669051F21A25C0029E103 /* XRFriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRFriendViewController.m; sourceTree = "<group>"; };
+		E90669071F21A2710029E103 /* XRMyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRMyViewController.h; sourceTree = "<group>"; };
+		E90669081F21A2710029E103 /* XRMyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRMyViewController.m; sourceTree = "<group>"; };
+		E906690A1F21A27E0029E103 /* XRAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRAccountViewController.h; sourceTree = "<group>"; };
+		E906690B1F21A27E0029E103 /* XRAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRAccountViewController.m; sourceTree = "<group>"; };
+		E906690D1F21C1240029E103 /* XRNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRNavigationController.h; sourceTree = "<group>"; };
+		E906690E1F21C1240029E103 /* XRNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRNavigationController.m; sourceTree = "<group>"; };
 		E92DB3BA1F034AF300BBCC45 /* 心然音乐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "心然音乐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E92DB3BE1F034AF300BBCC45 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E92DB3C01F034AF300BBCC45 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -148,6 +166,149 @@
 			path = "资源文件";
 			sourceTree = "<group>";
 		};
+		E90668ED1F219FB30029E103 /* 公共类 */ = {
+			isa = PBXGroup;
+			children = (
+				E90668EE1F219FF50029E103 /* XRTabBarController.h */,
+				E90668EF1F219FF50029E103 /* XRTabBarController.m */,
+				E906690D1F21C1240029E103 /* XRNavigationController.h */,
+				E906690E1F21C1240029E103 /* XRNavigationController.m */,
+			);
+			path = "公共类";
+			sourceTree = "<group>";
+		};
+		E90668F11F21A20F0029E103 /* 发现音乐 */ = {
+			isa = PBXGroup;
+			children = (
+				E90668F21F21A20F0029E103 /* Controller */,
+				E90668F31F21A20F0029E103 /* Model */,
+				E90668F41F21A20F0029E103 /* View */,
+			);
+			path = "发现音乐";
+			sourceTree = "<group>";
+		};
+		E90668F21F21A20F0029E103 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E90669011F21A24E0029E103 /* XRDisCoverViewController.h */,
+				E90669021F21A24E0029E103 /* XRDisCoverViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E90668F31F21A20F0029E103 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E90668F41F21A20F0029E103 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E90668F51F21A20F0029E103 /* 朋友 */ = {
+			isa = PBXGroup;
+			children = (
+				E90668F61F21A20F0029E103 /* Controller */,
+				E90668F71F21A20F0029E103 /* Model */,
+				E90668F81F21A20F0029E103 /* View */,
+			);
+			path = "朋友";
+			sourceTree = "<group>";
+		};
+		E90668F61F21A20F0029E103 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E90669041F21A25C0029E103 /* XRFriendViewController.h */,
+				E90669051F21A25C0029E103 /* XRFriendViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E90668F71F21A20F0029E103 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E90668F81F21A20F0029E103 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E90668F91F21A20F0029E103 /* 我的音乐 */ = {
+			isa = PBXGroup;
+			children = (
+				E90668FA1F21A20F0029E103 /* Controller */,
+				E90668FB1F21A20F0029E103 /* Model */,
+				E90668FC1F21A20F0029E103 /* View */,
+			);
+			path = "我的音乐";
+			sourceTree = "<group>";
+		};
+		E90668FA1F21A20F0029E103 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E90669071F21A2710029E103 /* XRMyViewController.h */,
+				E90669081F21A2710029E103 /* XRMyViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E90668FB1F21A20F0029E103 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E90668FC1F21A20F0029E103 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E90668FD1F21A20F0029E103 /* 账号 */ = {
+			isa = PBXGroup;
+			children = (
+				E90668FE1F21A20F0029E103 /* Controller */,
+				E90668FF1F21A20F0029E103 /* Model */,
+				E90669001F21A20F0029E103 /* View */,
+			);
+			path = "账号";
+			sourceTree = "<group>";
+		};
+		E90668FE1F21A20F0029E103 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E906690A1F21A27E0029E103 /* XRAccountViewController.h */,
+				E906690B1F21A27E0029E103 /* XRAccountViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E90668FF1F21A20F0029E103 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E90669001F21A20F0029E103 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		E92DB3B11F034AF300BBCC45 = {
 			isa = PBXGroup;
 			children = (
@@ -169,6 +330,11 @@
 			children = (
 				E900E1411F09EEAC003A7317 /* 资源文件 */,
 				E92DB4061F0351BB00BBCC45 /* Vender */,
+				E90668F11F21A20F0029E103 /* 发现音乐 */,
+				E90668F51F21A20F0029E103 /* 朋友 */,
+				E90668F91F21A20F0029E103 /* 我的音乐 */,
+				E90668FD1F21A20F0029E103 /* 账号 */,
+				E90668ED1F219FB30029E103 /* 公共类 */,
 				E92DB3F31F034C2800BBCC45 /* 播放列表 */,
 				E92DB3FB1F034C2800BBCC45 /* 歌词解析 */,
 				E92DB3C01F034AF300BBCC45 /* AppDelegate.h */,
@@ -380,28 +546,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E90668F01F219FF50029E103 /* XRTabBarController.m in Sources */,
 				E92DB4331F048E3E00BBCC45 /* XRPlayControlToolBar.m in Sources */,
 				E92DB4221F03520900BBCC45 /* MASConstraint.m in Sources */,
 				E900E14B1F0A1980003A7317 /* XRLRCAnalysiser.m in Sources */,
+				E90669031F21A24E0029E103 /* XRDisCoverViewController.m in Sources */,
 				E92DB4251F03520900BBCC45 /* MASViewAttribute.m in Sources */,
 				E900E14E1F0A24C4003A7317 /* XRLRCCell.m in Sources */,
 				E92DB42A1F03520900BBCC45 /* ViewController+MASAdditions.m in Sources */,
 				E900E1511F0A3977003A7317 /* XRLRCLabel.m in Sources */,
 				E92DB4271F03520900BBCC45 /* NSArray+MASAdditions.m in Sources */,
+				E906690C1F21A27E0029E103 /* XRAccountViewController.m in Sources */,
 				E92DB3C51F034AF300BBCC45 /* ViewController.m in Sources */,
 				E92DB4261F03520900BBCC45 /* MASViewConstraint.m in Sources */,
 				E92DB4241F03520900BBCC45 /* MASLayoutConstraint.m in Sources */,
 				E92DB3C21F034AF300BBCC45 /* AppDelegate.m in Sources */,
 				E92DB3FF1F034E6200BBCC45 /* XRPlayListViewController.m in Sources */,
 				E92DB4391F049F6100BBCC45 /* XRPlayLyricsView.m in Sources */,
+				E90669091F21A2710029E103 /* XRMyViewController.m in Sources */,
 				E92DB4291F03520900BBCC45 /* View+MASAdditions.m in Sources */,
 				E900E1401F09DFD0003A7317 /* XRPlayProcessingBar.m in Sources */,
 				E92DB4361F049F4000BBCC45 /* XRPlayMainView.m in Sources */,
 				E900E1481F0A18A9003A7317 /* XRLRCModel.m in Sources */,
+				E90669061F21A25C0029E103 /* XRFriendViewController.m in Sources */,
 				E900E1541F0B219C003A7317 /* XRPlaySington.m in Sources */,
 				E92DB4211F03520900BBCC45 /* MASCompositeConstraint.m in Sources */,
 				E92DB4281F03520900BBCC45 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				E92DB4301F03B31900BBCC45 /* XRPlayViewController.m in Sources */,
+				E906690F1F21C1240029E103 /* XRNavigationController.m in Sources */,
 				E92DB4231F03520900BBCC45 /* MASConstraintMaker.m in Sources */,
 				E92DB3BF1F034AF300BBCC45 /* main.m in Sources */,
 				E92DB4021F034EBF00BBCC45 /* XRPlayListModel.m in Sources */,

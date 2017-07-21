@@ -7,8 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
-#import "XRPlayListViewController.h"
+#import "XRTabBarController.h"
 
 @interface AppDelegate ()
 
@@ -20,13 +19,10 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    XRPlayListViewController *playListViewController = [[XRPlayListViewController alloc] init];
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.rootViewController = [[XRTabBarController alloc] init];
     self.window.backgroundColor = [UIColor whiteColor];
-    
-    UINavigationController *navigationViewcontroller = [[UINavigationController alloc] initWithRootViewController:playListViewController];
-    self.window.rootViewController = navigationViewcontroller;
     [self.window makeKeyAndVisible];
+    
     
     return YES;
 }
